@@ -1,9 +1,8 @@
-POST http://localhost:3001/api/blogs
+POST http://localhost:3001/api/users
 Content-Type: application/json
 
 {
-    "title": "moromoro",
-    "author": "jaakko",
-    "url": "emt",
-    "likes": "0"
+      "username": "mluukkai",
+      "name": "Matti Luukkainen",
+      "password": "salainen"
 }
